@@ -1,0 +1,56 @@
+# coding: utf-8
+
+from __future__ import absolute_import
+
+from utils.consts import (
+    SUBJECT_CHINESE,
+    SUBJECT_HISTORY,
+    SUBJECT_GEOGRAPHY,
+    SUBJECT_POLITICS
+)
+
+subject_name2id = {
+    'chinese': SUBJECT_CHINESE,
+    'history': SUBJECT_HISTORY,
+    'geography': SUBJECT_GEOGRAPHY,
+    'politics': SUBJECT_POLITICS
+}
+
+ART_CONSTS = {
+    # chinese model
+    'K_CHINESE_CHOICE': 8000,
+
+    'K_CHINESE_READING': 8010,
+    'K_CHINESE_READING_QUESTION': 8012,
+
+    'K_CHINESE_MATERIAL': 8020,
+    'K_CHINESE_MATERIAL_QUESTION': 8022,
+
+    # history model
+    'K_HISTORY_CHOICE': 8100,
+
+    'K_HISTORY_READING': 8110,
+    'K_HISTORY_READING_QUESTION': 8112,
+
+    'K_HISTORY_MATERIAL': 8120,
+    'K_HISTORY_MATERIAL_QUESTION': 8122,
+
+    # geography model
+    'K_GEOGRAPHY_CHOICE': 8200,
+
+    'K_GEOGRAPHY_READING': 8210,
+    'K_GEOGRAPHY_READING_QUESTION': 8212,
+
+    'K_GEOGRAPHY_MATERIAL': 8220,
+    'K_GEOGRAPHY_MATERIAL_QUESTION': 8222,
+
+    # politics model
+    'K_POLITICS_CHOICE': 8300,
+
+    'K_POLITICS_READING': 8310,
+    'K_POLITICS_READING_QUESTION': 8312,
+
+    'K_POLITICS_MATERIAL': 8320,
+    'K_POLITICS_MATERIAL_QUESTION': 8322
+}
+
